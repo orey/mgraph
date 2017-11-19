@@ -1,0 +1,30 @@
+{
+  "name": "mgraph",
+  "version": "1.0.0",
+  "description": "MicaGraph",
+  "main": "index.js",
+  "scripts": {
+    "test": "test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/orey/mgraph.git"
+  },
+  "keywords": [
+    "graph"
+  ],
+  "author": "O. Rey",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/orey/mgraph/issues"
+  },
+  "homepage": "https://github.com/orey/mgraph#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "express-graphql": "^0.6.11",
+    "graphql": "^0.11.7",
+    "graphql-server-express": "^1.2.0",
+    "graphql-tools": "^2.8.0"
+  }
+}
