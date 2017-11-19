@@ -21,6 +21,8 @@
   "homepage": "https://github.com/orey/mgraph#readme",
   "dependencies": {
     "body-parser": "^1.18.2",
+    "esdoc": "^1.0.4",
+    "esdoc-standard-plugin": "^1.0.0",
     "express": "^4.16.2",
     "express-graphql": "^0.6.11",
     "graphql": "^0.11.7",
