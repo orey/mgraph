@@ -1,0 +1,8 @@
+{
+   'dict': 'nodes',
+   'queries' : [
+      { 'create01' : 'CREATE (a:Person {name: $name}) RETURN a' },
+      { 'update01': 'MATCH (n:$type) WHERE ID(n)=$id SET n.$att-name=$att-value RETURN ID(n)' },
+   ]
+}
+

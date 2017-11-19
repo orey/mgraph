@@ -1,3 +1,10 @@
+/******************************************************
+ * Author: O. Rey
+ * email: rey.olivier@gmail.com
+ * Date: November 2017
+ * Core library for MicaGraph
+ * License: Apache 2
+ ******************************************************/
 var express = require('express');
 var graphqlHTTP = require('express-graphql');
 var { buildSchema } = require('graphql');

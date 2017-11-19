@@ -126,6 +126,15 @@ class BusinessArc {
  ========================================*/
 const UNSET = 0;
 
+/**
+ * Utils
+ */
+function getAllProperties(obj) {
+  return Object.keys(obj); 
+}
+
+
+
 
 /*=======================================
  * Main APIs
@@ -152,6 +161,7 @@ function addToGraph(things) {
  ========================================*/
 module.exports = {
   UNSET : UNSET,
+  getAllProperties : getAllProperties,
   BusinessNode : BusinessNode,
   BusinessRel  : BusinessRel,
   BusinessArc  : BusinessArc,
