@@ -64,12 +64,9 @@ class Graph {
     return [this.getNode(edge.sourceid),this.getNode(edge.targetid)];
   }
   getNeighbours(id) {
-    resultind = [];
-    for (edge in edges)
-      if (edge.sourceid == id) resultind.push(this.getEdge(edge.targetid));
     result = [];
-    for (i in resultind)
-      result.push(this.getNode(i));
+    for (edge in edges)
+      if (edge.sourceid == id) result.push(this.getNode(edge.targetid));
     return result;
   }
   createNode() {
