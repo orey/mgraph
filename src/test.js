@@ -15,18 +15,8 @@ const neo   = require('./db/neo/neo');
 const toto = new mg.BNode (1, 'Twingo', 'Car');
 const titi = new mg.BNode (2, 'Clio', 'Car');
 
-// Print the prototype chain
-var printChain = function protoChain(obj) {
-  let temp = Object.getPrototypeOf(obj);
-  if ((temp === {})||(temp === undefined) || (temp === null))
-    console.log('END');
-  else {
-    console.log(temp);
-    protoChain(temp);
-  }
-}
+utils.printPrototypeChain(toto);
 
-printChain(toto);
 
 console.log(toto.print());
 
