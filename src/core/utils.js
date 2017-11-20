@@ -54,7 +54,7 @@ function inspect(object) {
 
 /*=======================================
  * Exports
- ========================================*/
+ *=======================================*/
 module.exports = {
   inspect              : inspect,
   printPrototypeChain  : printPrototypeChain

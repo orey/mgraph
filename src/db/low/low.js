@@ -6,6 +6,7 @@
  * License: Apache 2
  ******************************************************/
 'use strict';
+
 const low = require('lowdb')
 const FileSync = require('lowdb/adapters/FileSync')
 
@@ -24,3 +25,5 @@ db.get('posts')
 // Set a user using Lodash shorthand syntax
 db.set('user.name', 'typicode')
   .write()
+
+console.log(db.get('user.name'));

@@ -21,6 +21,7 @@
   "homepage": "https://github.com/orey/mgraph#readme",
   "dependencies": {
     "body-parser": "^1.18.2",
+    "cytoscape": "^3.2.6",
     "esdoc": "^1.0.4",
     "esdoc-standard-plugin": "^1.0.0",
     "express": "^4.16.2",

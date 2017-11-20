@@ -125,6 +125,7 @@ class BusinessArc {
  * Constants
  ========================================*/
 const UNSET = 0;
+const ROOT = new BusinessNode(1,'BusinessNode','ROOT','SYSTEM','administrator');
 
 /**
  * Utils
@@ -161,6 +162,7 @@ function addToGraph(things) {
  ========================================*/
 module.exports = {
   UNSET : UNSET,
+  ROOT  : ROOT,
   getAllProperties : getAllProperties,
   BusinessNode : BusinessNode,
   BusinessRel  : BusinessRel,
