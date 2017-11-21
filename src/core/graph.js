@@ -33,9 +33,10 @@ class Node {
 }
 
 class Edge {
-  constructor(obj) {
-    this.obj      = obj;
-    this.id       = obj.id;
+  constructor(obj, target) {
+    this.id = obj.id;
+    this.source = obj.source;
+    this.target = obj.target;
     this.sourceid = obj.source.id;
     this.targetid = obj.target.id;
   }
@@ -65,15 +66,21 @@ class Graph {
   }
   getNeighbours(id) {
     result = [];
-    for (edge in edges)
-      if (edge.sourceid == id) result.push(this.getNode(edge.targetid));
+    for (edge in edges) {
+      if (edge.sourceid == id)
+        result.push(this.getNode(edge.targetid));
+    }
     return result;
   }
-  createNode() {
-    return new Node(null);
+  //creation methods are just wrappers
+  createNode(bnode) {
+    return new Node(bnode);
+  }
+  createEdge(rel) {
+    return new Edge(rel);
   }
 }
-  
+
 
 
 
