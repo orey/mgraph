@@ -20,16 +20,16 @@
   },
   "homepage": "https://github.com/orey/mgraph#readme",
   "dependencies": {
-    "body-parser": "^1.18.2",
-    "cytoscape": "^3.2.6",
-    "esdoc": "^1.0.4",
+    "body-parser": "^1.19.0",
+    "cytoscape": "^3.5.4",
+    "esdoc": "^1.1.0",
     "esdoc-standard-plugin": "^1.0.0",
-    "express": "^4.16.2",
-    "express-graphql": "^0.6.11",
+    "express": "^4.16.4",
+    "express-graphql": "^0.6.12",
     "graphql": "^0.11.7",
-    "graphql-server-express": "^1.2.0",
-    "graphql-tools": "^2.8.0",
+    "graphql-server-express": "^1.4.0",
+    "graphql-tools": "^2.24.0",
     "lowdb": "^1.0.0",
-    "neo4j-driver": "^1.5.0"
+    "neo4j-driver": "^1.7.3"
   }
 }
